@@ -1,0 +1,17 @@
+</$objtype/mkfile
+
+TARG=ent
+
+OFILES=\
+	chisq.$O\
+	ent.$O\
+	iso8859.$O\
+	randtest.$O
+
+HFILES=iso8859.h
+
+CC=pcc
+CFLAGS=-c -D_POSIX_SOURCE -D_BSD_EXTENSION
+BIN=/$objtype/bin
+
+</sys/src/cmd/mkone
