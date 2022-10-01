@@ -60,7 +60,7 @@ static void help(void)
         printf("\n                   -f   Fold upper to lower case letters");
         printf("\n                   -t   Terse output in CSV format");
         printf("\n                   -u   Print this message\n");
-        printf("\nVersion " VERSION);
+        printf("\nVersion 1.4");
         printf("\nBy John Walker");
         printf("\n   https://www.fourmilab.ch/\n");
 }
